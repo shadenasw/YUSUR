@@ -43,19 +43,4 @@ struct Splash: View {
     }
 }
 
-struct MainAppView: View {
-    var body: some View {
-        Text("Main App Content Here")
-            .font(.title)
-            .foregroundColor(.green)
-    }
-}
 
-@main
-struct MyApp: App {
-    var body: some Scene {
-        WindowGroup {
-            Splash()
-        }
-    }
-}
