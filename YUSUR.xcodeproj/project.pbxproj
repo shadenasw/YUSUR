@@ -8,7 +8,6 @@
 
 /* Begin PBXFileReference section */
 		14F567FD2D09CC0A0043DE84 /* YUSUR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUSUR.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFD508CD2D0DDCD500DF0C5E /* YUSUR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YUSUR.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,7 +32,6 @@
 		14F567F42D09CC0A0043DE84 = {
 			isa = PBXGroup;
 			children = (
-				AFD508CD2D0DDCD500DF0C5E /* YUSUR.entitlements */,
 				14F567FF2D09CC0A0043DE84 /* YUSUR */,
 				14F567FE2D09CC0A0043DE84 /* Products */,
 			);
@@ -246,7 +244,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = YUSUR/YUSUR.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"YUSUR/Preview Content\"";
@@ -285,7 +284,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = YUSUR/YUSUR.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"YUSUR/Preview Content\"";
